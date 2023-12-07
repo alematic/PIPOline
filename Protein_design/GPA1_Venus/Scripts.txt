@@ -1,0 +1,12 @@
+## Type into terminal (or see example for jupyter notebook 'gpa1_venus')
+
+#Example done with Vojislav
+python.exe ./main.py --backbone_path ./Test_examples/pETUL_backbone.fsa --MCS_start_ind 1 --MCS_end_ind 108 --min_homology 150 --alpha 2 --Gene_path ./Test_examples/S288C_YHR005C_GPA1_flanking_without_first_30_nt.fsa --linker_path ./Test_examples/long_linker.fsa --modality 5 --enzyme_path ./Test_examples/raw_enzyme_list.txt --popular_enzyme_path ./Test_examples/Popular_enzymes.txt --FPG_paths ./Test_examples/CLB2_3p_labeling/ymNeonGreen_FPG.fsa
+
+# For insert of Venus at 10-11th position (run from Test_examples)
+python.exe ./main.py --backbone_path ./Test_examples/pETUL_backbone.fsa --MCS_start_ind 1 --MCS_end_ind 108 --min_homology 70 --alpha 2 --Gene_path ./Test_examples/S288C_YHR005C_GPA1_flanking_without_first_30_nt.fsa --linker_path ./Test_examples/3xSGGGG_linker.fsa --modality 5 --enzyme_path ./Test_examples/raw_enzyme_list.txt --popular_enzyme_path ./Test_examples/Popular_enzymes.txt --FPG_paths ./Test_examples/Venus.fsa ./Test_examples/CLB2_3p_labeling/ymNeonGreen_FPG.fsa ./Test_examples/CLB2_3p_labeling/ymTq2_FPG.fsa
+
+# For insert of Venus at 10-11th position (run from Protein_design/GPA1_Venus)
+python.exe ./main.py --backbone_path ./Protein_design/GPA1_Venus/pETUL_backbone.fsa --MCS_start_ind 1 --MCS_end_ind 108 --min_homology 150 --alpha 2 --Gene_path ./Protein_design/GPA1_Venus/S288C_YHR005C_GPA1_flanking_without_first_30_nt.fsa --linker_path ./Protein_design/GPA1_Venus/3xSGGGG_linker.fsa --modality 5 --enzyme_path ./raw_enzyme_list.txt --popular_enzyme_path ./Popular_enzymes.txt --FPG_paths ./FPGs/yEVenus.fsa
+
+# see the rest in the jupyter notebook 'gpa1_venus'
