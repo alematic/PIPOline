@@ -495,7 +495,7 @@ class PIPOline:
             return (rsite1, rsite2, cut_MCS_5, cut_MCS_3, compatible_rsites)
 
 
-    def find_optimal_plasmid(self, modality, rsite_info, cut_MCS_5, cut_MCS_3, rsite1, rsite2, popular_enzyme_path, assembled_plasmid_name, Gene_path, FPG_names, FPG_seq, save_optimal_plasmid=False):
+    def find_optimal_plasmid(self, modality, rsite_info, cut_MCS_5, cut_MCS_3, rsite1, rsite2, popular_enzyme_path, assembled_plasmid_name, Gene_path, FPG_names, FPG_seq, save_optimal_plasmid=True):
        
         """Find good additonal cutsites to add on the joints between the gene chunks, linker and FPG
         Go through the list and check if they are good for use with these sequences"""

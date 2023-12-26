@@ -3,7 +3,7 @@ The purpose of the code is to generate a plasmid for pop-out-based tagging or de
 Input:
 --backbone_path (path towards the )
 --MCS_start_ind (index of the first nucleotide of the backbone present in the MCS, counted from 1)
---MCS_end_ind (index of the first nucleotide of the backbone present in the MCS, counted from 1)
+--MCS_end_ind (index of the first nucleotide of the backbone present in the MCS, counted from 1) # index of the last nt?\
 --min_homology (minimal number of basepairs around the cusite used for integration)
 --alpha (ratio between the homology piece used for integration and the homology piece used for pop-out)
 --Gene_path (path towards the fasta file with gene sequence. gene sequence should be in (ORF +- 1000 bp) format)
