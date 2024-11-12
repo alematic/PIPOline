@@ -1,3 +1,6 @@
+OUTDATED: check original repo
+
+
 The purpose of the code is to generate a plasmid for pop-out-based tagging or deletion of genes in budding yeast.
 
 Input:
